@@ -20,7 +20,7 @@ GifGal-NFTtrader is a Python script designed to facilitate the analysis, forecas
 ## Usage
 1. Run the script by executing the following command:
    ```
-   python nft_trader.py
+   python flip.py
    ```
 
 2. Check the logging output for information on NFT price, sentiment analysis, forecasted price, and trading actions.
