@@ -2,7 +2,7 @@
 
 GifGal-NFTtrader is a Python script designed to facilitate the analysis, forecasting, and trading of non-fungible tokens (NFTs) on the OpenSea platform. This README provides information on installation, usage, functionality, and a disclaimer.
 
-[gifGal](https://github.com/LoQiseaking69/GifGal-NFTtrader/blob/main/IMG_8549.JPG)
+![gifGal](https://github.com/LoQiseaking69/GifGal-NFTtrader/blob/main/IMG_8549.JPG)
 
 ## Prerequisites
 - Python 3.x
