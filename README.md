@@ -20,7 +20,7 @@ GifGal-NFTtrader is a sophisticated Python script for automated trading of non-f
 ## Usage
 1. Run the script using the following command:
    ```
-   python GifGal-NFTtrader.py
+   python Flip.py
    ```
 
 2. Monitor the console for log information on sentiment analysis, price forecasting, and automated trading decisions.
