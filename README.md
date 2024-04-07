@@ -1,38 +1,36 @@
 # GifGal-NFTtrader
 
-GifGal-NFTtrader is a Python script designed to facilitate the analysis, forecasting, and trading of non-fungible tokens (NFTs) on the OpenSea platform. This README provides information on installation, usage, functionality, and a disclaimer.
+GifGal-NFTtrader is a sophisticated Python script for automated trading of non-fungible tokens (NFTs) on Ethereum blockchain, particularly focusing on OpenSea platform transactions. This README guides you through installation, usage, functionalities, and includes a disclaimer.
 
-![gifGal](https://github.com/LoQiseaking69/GifGal-NFTtrader/blob/main/IMG_8549.JPG)
+![GifGal](https://github.com/LoQiseaking69/GifGal-NFTtrader/blob/main/IMG_8549.JPG)
 
 ## Prerequisites
 - Python 3.x
-- Required libraries: requests, logging, TextBlob, sklearn
+- Required libraries: requests, logging, numpy, sklearn, transformers, web3
 
 ## Installation
 1. Clone or download the repository.
 2. Install the required libraries using pip:
    ```
-   pip install requests
-   pip install textblob
-   pip install scikit-learn
+   pip install requests numpy scikit-learn transformers web3
    ```
 
-3. Replace `"YOUR_OPENSEA_API_KEY"`, `"YOUR_NFT_CONTRACT_ADDRESS"`, and `"YOUR_NFT_TOKEN_ID"` with appropriate values in the `main()` function.
+3. Obtain and set your OpenSea API key, Ethereum node URL, and Ethereum wallet details. Ensure these are stored securely, preferably as environment variables.
 
 ## Usage
-1. Run the script by executing the following command:
+1. Run the script using the following command:
    ```
-   python Flip.py
+   python GifGal-NFTtrader.py
    ```
 
-2. Check the logging output for information on NFT price, sentiment analysis, forecasted price, and trading actions.
+2. Monitor the console for log information on sentiment analysis, price forecasting, and automated trading decisions.
 
 ## Functionality
-- **analyze_sentiment(text):** Analyzes text sentiment using TextBlob.
-- **forecast_price(historical_prices):** Predicts the next NFT price using historical data and a Random Forest Regressor model.
-- **get_nft_details(nft_contract_address, nft_token_id):** Retrieves NFT details, including price and sentiment score.
-- **buy_nft(nft_contract_address, nft_token_id, max_price):** Places a buy order for an NFT if the price is within the acceptable range.
-- **fetch_historical_prices(nft_contract_address, nft_token_id):** Fetches historical NFT prices.
+- **analyze_sentiment(text):** Conducts sentiment analysis of NFT descriptions.
+- **get_nft_details(nft_contract_address, nft_token_id):** Retrieves current NFT details including price and sentiment score.
+- **fetch_historical_prices(nft_contract_address, nft_token_id):** Obtains historical price data of an NFT.
+- **forecast_price(historical_prices):** Predicts future NFT price using a Random Forest Regressor model based on historical price data.
+- **buy_nft(nft_contract_address, nft_token_id, max_price):** Executes a purchase of an NFT if predicted price is within a specified maximum limit.
 
 ## Disclaimer
-This script is provided for educational purposes only. Use it responsibly and at your own risk.
+This script is intended for educational and research purposes only. Use at your own risk. The creators are not responsible for any financial losses or legal implications arising from its use. Ensure you understand blockchain transactions, NFT trading, and the associated risks before use.
