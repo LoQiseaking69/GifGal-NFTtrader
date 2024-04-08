@@ -1,5 +1,8 @@
 # GifGal-NFTtrader
-
+[![Build Status](https://github.com/LoQiseaking69/GifGal-NFTtrader/actions/workflows/main.yml/badge.svg)](https://github.com/LoQiseaking69/GifGal-NFTtrader/actions)
+[![Coverage Status](https://coveralls.io/repos/github/LoQiseaking69/GifGal-NFTtrader/badge.svg?branch=main)](https://coveralls.io/github/LoQiseaking69/GifGal-NFTtrader?branch=main)
+[![Maintainability](https://api.codeclimate.com/v1/badges/YourBadgeID/maintainability)](https://codeclimate.com/github/LoQiseaking69/GifGal-NFTtrader/maintainability)
+[![License](https://img.shields.io/github/license/LoQiseaking69/GifGal-NFTtrader)](LICENSE)
 GifGal-NFTtrader is a sophisticated Python script for automated trading of non-fungible tokens (NFTs) on Ethereum blockchain, particularly focusing on OpenSea platform transactions. This README guides you through installation, usage, functionalities, and includes a disclaimer.
 
 ![GifGal](https://github.com/LoQiseaking69/GifGal-NFTtrader/blob/main/IMG_8549.JPG)
